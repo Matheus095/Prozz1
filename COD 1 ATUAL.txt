@@ -1,0 +1,29 @@
+nota = 10  
+nota <= 10 
+Resposta: True
+
+
+nota = 6 
+faltas = 4 
+(nota <= 6) and (faltas <= 3)
+Resposta: False
+
+convidados = 3
+fumante = False
+(convidados >4) or (fumante == True)
+Resposta: False
+
+
+dia = "qua" 
+(dia == "sab") or (dia == "dom")
+Resposta: False
+
+
+feriado = True
+not(feriado == False)
+Resposta: True
+
+dia = "ter" 
+feriado = False
+(dia == "seg") != (feriado == False)
+Resposta: True
